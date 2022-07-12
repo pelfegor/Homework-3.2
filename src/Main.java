@@ -4,7 +4,7 @@ public class Main {
         BmiService service = new BmiService();
         double w = 73.5;
         double h = 1.73;
-        double bmi = service.calculate(w , h);
+        double bmi = service.BmiCalculator(w , h);
         System.out.println(bmi);
     }
 }
